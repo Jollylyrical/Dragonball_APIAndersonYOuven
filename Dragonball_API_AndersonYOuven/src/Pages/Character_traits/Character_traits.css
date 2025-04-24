@@ -1,0 +1,35 @@
+.character-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  padding-top: 55px;
+}
+
+@media (min-width: 900px) {
+  .character-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.character-image-container {
+  flex: 1 1 300px;
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.character-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: top;
+}

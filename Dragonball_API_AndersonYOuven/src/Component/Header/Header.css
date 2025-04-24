@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 25px;
+  color: #fff;
+  background-color: transparent;
+  padding-top: 60px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
