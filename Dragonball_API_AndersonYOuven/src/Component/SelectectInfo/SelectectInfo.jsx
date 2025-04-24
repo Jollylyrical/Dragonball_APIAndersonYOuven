@@ -1,7 +1,7 @@
   // SelectectInfo.jsx
   import React from "react";
   import { Card, CardContent, Typography, Box } from "@mui/material";
-  import "./SelectectInfo.css";
+
 
   const SelectectInfo = ({ character }) => {
     return (
